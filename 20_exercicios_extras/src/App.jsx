@@ -15,6 +15,17 @@ import DesejoDoDia from './components/DesejoDoDia'
 import AnimalFavorito from './components/AnimalFavorito'
 import GaleriaImagens from './components/GaleriaImagens'
 import GaleriaImagensPublicas from './components/GaleriaImagensPublicas'
+import ImagemCondicional2 from './components/ImagemCondicional2'
+import ListaFrutas from './components/ListaFrutas'
+import ContatoUsuario from './components/ContatoUsuario'
+import Produto from './components/Produto'
+import ListaProdutos from './components/ListaProdutos'
+import MensagemNota from './components/MensagemNota'
+import CorFavorita from './components/CorFavorita'
+import SaudacaoHorario from './components/SaudacaoHorario'
+import StatusConexao from './components/StatusConexao'
+import NomeCompleto from './NomeCompleto'
+import MensagemEmoji from './components/MensagemEmoji'
 
 const App = () => {
   return (
@@ -34,6 +45,17 @@ const App = () => {
       <AnimalFavorito/>
       <GaleriaImagens/>
       <GaleriaImagensPublicas/>
+      <ImagemCondicional2/>
+      <ListaFrutas/>
+      <ContatoUsuario nome={'Caroline'} email={'caroline@gmail.com'} telefone={8399944557711}/>
+      <Produto nome={'Kindle'} preco={350.00} categoria={'eletrônico'}/> 
+      <ListaProdutos/>
+      <MensagemNota/>
+      <CorFavorita cor={'red'}/>
+      <SaudacaoHorario/>
+      <StatusConexao/>
+      <NomeCompleto nome={'Caroline'} sobrenome={'Andrade'}/>
+      <MensagemEmoji mensagem={'Estou Surpresa!'} emoji={"😱"}/>
 
     </div>
   )
